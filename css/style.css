@@ -35,11 +35,12 @@ menu ul
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	margin: 0;
 }
 menu ul li
 {
 	display: inline-block;
-	margin: 5px;
+	margin: 5px 5px 5px 5px;
 	padding: 10px;
 	background-color: rgba(204,231,239,1.00);
 	-webkit-border-radius: 20px;
@@ -49,11 +50,64 @@ menu ul li
 menu ul li ul
 {
 	display: none;
-	margin: 2px;
+	margin: 0;
 	padding: 10px;
-	
+	position: absolute;
+	width: 160px;
+	text-align: left;
+}
+menu ul li ul li
+{
+	width: 160px;
+	margin: 0;
+	border-radius: 0px;
+	border-bottom: 2px dotted rgba(35,96,114,1.00);
+	text-align: center;
 }
 menu ul li:hover ul
 {
 	display: block;
 }
+li a
+{
+	text-decoration: none;
+	color: black;
+}
+article
+{
+	min-height: 500px;
+	margin: 20px 20px 0;
+	float: left;
+	width: 60%;
+	position: relative;
+}
+asside
+{
+	display: block;
+	min-height: 500px;
+	margin: 0 20px;
+	float: left;
+	width: 20%;
+	position: relative;
+	background-color: rgba(35,96,114,0.60);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
