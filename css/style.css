@@ -63,6 +63,18 @@
 	{
 		font-weight: 600;
 	}
+	span
+	{
+		font-weight: 700;
+	}
+	article
+	{
+		padding: 2em;
+	}
+	aside
+	{
+		padding: 2em;
+	}
 }
 @media only screen and (min-width: 900px)
 {
@@ -111,6 +123,7 @@
 		-webkit-border-radius: 20px;
 		-moz-border-radius: 20px;
 		border-radius: 20px;
+		position: relative;
 	}
 	menu ul li ul
 	{
@@ -118,6 +131,7 @@
 		margin: 0;
 		padding: 10px;
 		position: absolute;
+		left: 0px;
 		width: 160px;
 		text-align: left;
 	}
@@ -130,6 +144,8 @@
 		-moz-border-radius: 0px;
 		border-bottom: 2px dotted rgba(35,96,114,1.00);
 		text-align: center;
+		float: none;
+		z-index: 2000;
 	}
 	menu ul li:hover ul
 	{
@@ -180,6 +196,14 @@
 		-webkit-border-radius: 20px;
 		-moz-border-radius: 20px;
 		border-radius: 20px;
+	}
+	hr
+	{
+		width: 60%;
+	}
+	span
+	{
+		font-weight: 700;
 	}
 }
 
